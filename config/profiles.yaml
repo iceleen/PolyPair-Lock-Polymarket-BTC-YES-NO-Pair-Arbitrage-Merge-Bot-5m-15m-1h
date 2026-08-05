@@ -1,0 +1,17 @@
+# Per-timeframe profile overrides (merged with .env)
+profiles:
+  BTC_5M:
+    status: paper
+    targetEdge: 0.005
+    mergeThreshold: 10
+    orderSizeUsdc: 8
+  BTC_15M:
+    status: monitor
+    targetEdge: 0.004
+    mergeThreshold: 15
+    orderSizeUsdc: 12
+  BTC_1H:
+    status: monitor
+    targetEdge: 0.003
+    mergeThreshold: 20
+    orderSizeUsdc: 15

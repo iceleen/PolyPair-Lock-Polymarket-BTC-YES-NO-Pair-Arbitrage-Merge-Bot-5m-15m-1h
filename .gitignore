@@ -1,0 +1,12 @@
+node_modules/
+dist/
+data/
+.env
+.killswitch
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+.DS_Store
+coverage/
+*.log
